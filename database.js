@@ -5,7 +5,7 @@ require('dotenv').config()
 // const PASSWORD = process.env.DB_PASSWORD;
 mongoose.set('strictQuery', true);
 const DB = process.env.DB;
-const URI = 'mongodb+srv://hrithik:1234@cluster0.47ci4hn.mongodb.net/test';
+const URI = 'mongodb+srv://hrithik:1234@cluster0.cmudgwo.mongodb.net/test';
 class Database {
     constructor() {
         this._connect();
